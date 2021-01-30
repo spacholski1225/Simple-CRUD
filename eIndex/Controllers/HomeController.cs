@@ -14,7 +14,7 @@ namespace eIndex.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        //private readonly ILogger<HomeController> _logger;
         private readonly SchoolContext _context;
 
         public HomeController(SchoolContext context)
